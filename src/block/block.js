@@ -199,6 +199,7 @@ registerBlockType( 'cgb/block-cgb-hello-gutenberg', {
 					className={ className }
 					onChange={ ( content ) => setAttributes( { content } ) }
 					value={ content }
+					placeholder={ __( 'Add text...' ) }
 				/>
 
 				{ extras &&
